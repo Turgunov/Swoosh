@@ -12,6 +12,7 @@
 		A663993120C7525100163911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A663992F20C7525100163911 /* Main.storyboard */; };
 		A663993320C7525400163911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A663993220C7525400163911 /* Assets.xcassets */; };
 		A663993620C7525400163911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A663993420C7525400163911 /* LaunchScreen.storyboard */; };
+		A663993F20C7589500163911 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663993E20C7589500163911 /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A663993220C7525400163911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A663993520C7525400163911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A663993720C7525400163911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A663993E20C7589500163911 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		A663992A20C7525100163911 /* swoosh */ = {
 			isa = PBXGroup;
 			children = (
-				A663992B20C7525100163911 /* AppDelegate.swift */,
-				A663992D20C7525100163911 /* ViewController.swift */,
 				A663992F20C7525100163911 /* Main.storyboard */,
-				A663993220C7525400163911 /* Assets.xcassets */,
-				A663993420C7525400163911 /* LaunchScreen.storyboard */,
+				A663993E20C7589500163911 /* BorderButton.swift */,
+				A663992D20C7525100163911 /* ViewController.swift */,
+				A663993D20C754D300163911 /* Supporting Files */,
 				A663993720C7525400163911 /* Info.plist */,
 			);
 			path = swoosh;
+			sourceTree = "<group>";
+		};
+		A663993D20C754D300163911 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A663992B20C7525100163911 /* AppDelegate.swift */,
+				A663993220C7525400163911 /* Assets.xcassets */,
+				A663993420C7525400163911 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				A663992E20C7525100163911 /* ViewController.swift in Sources */,
 				A663992C20C7525100163911 /* AppDelegate.swift in Sources */,
+				A663993F20C7589500163911 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
